@@ -11,3 +11,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div {
+  border: 1px solid grey;
+  margin: 5px;
+  padding: 5px;
+}
+
+.floorPlan {
+  display: grid;
+  grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+  grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bedroom1 {
+  background-color: rgb(182, 103, 214);
+  grid-column: 1 / 9;
+  grid-row: 1 / 9;
+  margin: 0px;
+  padding: 0px;
+}
+
+.livingRoom {
+  background-color: tan;
+  grid-column: 9 / 17;
+  grid-row: 1 / 13;
+  margin: 0px;
+  padding: 0px;
+}
+
+.kitchen {
+  background-color: rgb(113, 187, 140);
+  grid-column: 17 / 21;
+  grid-row: 1 / 13;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 30px 30px 30px 30px;
+  grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+  z-index: 0;
+}
+
+.oven {
+  background-color: rgb(255, 106, 0);
+  margin: 0px;
+  padding: 0px;
+  z-index: 1;
+  grid-column: 1/3;
+  grid-row: 11/13;
+}
+
+.sink {
+  background-color: aqua;
+  margin: 0px;
+  padding: 0px;
+  z-index: 1;
+  grid-column: 3/5;
+  grid-row: 11/13;
+}
+
+.full {
+  background-color: cornflowerblue;
+  grid-column: 1 / 9;
+  grid-row: 9 / 13;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bedroom2 {
+  background-color: rgb(182, 103, 214);
+  grid-column: 1 / 9;
+  grid-row: 13 / 21;
+  margin: 0px;
+  padding: 0px;
+}
+
+.half {
+  background-color: cornflowerblue;
+  grid-column: 9 / 13;
+  grid-row: 13 / 21;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bedroom3 {
+  background-color: rgb(182, 103, 214);
+  grid-column: 13 / 21;
+  grid-row: 13 / 21;
+  margin: 0px;
+  padding: 0px;
+}
